@@ -1,0 +1,57 @@
+:root {
+    /* Global colors */
+    --ud-cocoa-50: #f5d9c6;
+    --ud-cocoa-100: #f5c5a3;
+    --ud-cocoa-200: #f5b384;
+    --ud-cocoa-300: #ee9349;
+    --ud-cocoa-400: #e87a2c;
+    --ud-cocoa-500: #b55c1c;
+    --ud-cocoa-600: #914e21;
+    --ud-cocoa-700: #603415;
+    --ud-cocoa-800: #311b0c;
+    --ud-cocoa-900: #1f1209;
+  
+    --ud-linen-50: #fcf7f1;
+    --ud-linen-100: #f9efe1;
+    --ud-linen-200: #f1dac1;
+    --ud-linen-300: #e7bf97;
+    --ud-linen-400: #dd9e6e;
+    --ud-linen-500: #d68751;
+    --ud-linen-600: #cf7344;
+    --ud-linen-700: #bc5a34;
+    --ud-linen-800: #a24e34;
+    --ud-linen-900: #8c4631;
+  
+    --ud-gold-50: #fffaeb;
+    --ud-gold-100: #fff1c6;
+    --ud-gold-200: #fee289;
+    --ud-gold-300: #fed569;
+    --ud-gold-400: #fdb722;
+    --ud-gold-500: #f79509;
+    --ud-gold-600: #db6e04;
+    --ud-gold-700: #b64c07;
+    --ud-gold-800: #933b0d;
+    --ud-gold-900: #79310e;
+  
+    --ud-mint-50: #f3faf8;
+    --ud-mint-100: #d7f0eb;
+    --ud-mint-200: #aee1d7;
+    --ud-mint-300: #8dd1c6;
+    --ud-mint-400: #52afa3;
+    --ud-mint-500: #399389;
+    --ud-mint-600: #2b766f;
+    --ud-mint-700: #265f5b;
+    --ud-mint-800: #224d4a;
+    --ud-mint-900: #20413f;
+  
+    --ud-pink-50: #fcf4f4;
+    --ud-pink-100: #fae7e6;
+    --ud-pink-200: #f7d3d1;
+    --ud-pink-300: #f2c1be;
+    --ud-pink-400: #e58a84;
+    --ud-pink-500: #d6645d;
+    --ud-pink-600: #c24740;
+    --ud-pink-700: #a23933;
+    --ud-pink-800: #87322d;
+    --ud-pink-900: #712f2b;
+  }

@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    /> -->
+
+    <!-- chart script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <!-- bootstrap lib -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <!-- bootstrap js -->
+    <link src="./js/bootstrap.min.js" />
+
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="/CSS/styles.css" />
+    <title>Eat Doughy</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Heading -->
+      <div class="header">
+        <div class="promo">
+          <p>free shipping on orders over $50</p>
+        </div>
+
+        <nav>
+          <div class="left-class">
+            <button type="button" class="btn btn-outline-dark btn-lg">
+              Shop now
+            </button>
+          </div>
+          <div class="mid-class">
+            <h1>doughy</h1>
+          </div>
+          <div class="right-class">
+            <a href="#">our story</a>
+            <a href="#">find us</a>
+            <a href="#">build a bundle</a>
+            <a href="#"
+              ><img src="/Images/free-user-icon.png" width="30px" height="30px"
+            /></a>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i> </a>
+          </div>
+        </nav>
+      </div>
+
+      <!-- section 1 -->
+      <div class="video">
+        <div class="vid">
+          <video width="785" autoplay>
+            <source src="/Images/cookies vid.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="vegan-cookie">
+          <h2>
+            The cleanest, most delicious vegan cookie dough <em>ever</em>.
+          </h2>
+          <button type="button" class="btn btn-outline-dark btn-lg m-5">
+            Shop now
+          </button>
+        </div>
+      </div>
+
+      <!-- section 2 -->
+      <div class="wrap">
+        <div class="ingredients">
+          <h2>Seven ingredients <em>or less</em></h2>
+        </div>
+
+        <div class="free">
+          <ul>
+            <li>
+              <img src="/Images/preservative.png" alt="dairy " />
+              <div>dairy free</div>
+            </li>
+            <li>
+              <img src="/Images/gluten.png" alt="gluten " />
+              <div>gluten free</div>
+            </li>
+            <li>
+              <img src="/Images/dairy.png" alt="egg " />
+              <div>egg free</div>
+            </li>
+            <li>
+              <img src="/Images/nuts.png" alt="nuts " />
+              <div>grain free</div>
+            </li>
+            <li>
+              <img src="/Images/oil.png" alt="oil" />
+              <div>oil free</div>
+            </li>
+            <li>
+              <img src="/Images/soy.png" alt="soy" />
+              <div>soy free</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- section 3 -->
+      <div class="chocolate-cookie">
+        <div class="row">
+          <div class="col-6">
+            <div class="dough">
+              <h3>
+                Chocolate Chip <br />
+                Cookie Dough
+              </h3>
+              <p class="p-4">7 simple ingredients</p>
+              <div class="row px-5">
+                <div class="col">
+                  <ul>
+                    <li>
+                      <img src="/Images/cashews_ingredient.png" alt="cashew" />
+                      <div>Cashews</div>
+                    </li>
+                    <li>
+                      <img
+                        src="/Images/chocolate_chips_ingredient.png"
+                        alt="chips"
+                      />
+                      <div>Chocolate Chips</div>
+                    </li>
+                    <li>
+                      <img
+                        src="/Images/maple_syrup_ingredient.png"
+                        alt="syrup"
+                      />
+                      <div>Maple Syrup</div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <ul>
+                      <li>
+                        <img src="/Images/sea_salt_ingredient.png" alt="salt" />
+                        <div>Sea Salt</div>
+                      </li>
+                      <li>
+                        <img
+                          src="/Images/vanilla_ingredient.png"
+                          alt="vanilla"
+                        />
+                        <div>Vanilla</div>
+                      </li>
+                      <li>
+                        <img
+                          src="/Images/baking_soda_ingredient.png"
+                          alt="soda"
+                        />
+                        <div>Baking Soda</div>
+                      </li>
+                      <li>
+                        <img src="/Images/cacao.png" alt="cacao" height="60" />
+                        <div>Cacao</div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <button type="button" class="btn btn-outline-dark btn-lg my-4">
+                Shop now
+              </button>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="carouzel">
+              <div
+                id="carouselExampleIndicators"
+                class="carousel slide vertical"
+                data-ride="carousel"
+                data-interval="1000"
+              >
+                <div class="carousel-indicators d-flex flex-column">
+                  <button
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0"
+                    class="active"
+                  ></button>
+                  <button
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1"
+                  ></button>
+                  <button
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2"
+                  ></button>
+                </div>
+                <div class="carousel-inner vertical">
+                  <div class="active item">
+                    <img
+                      src="Images/chocolate_chip_can_cutout.png"
+                      class="img-responsive"
+                      data-target="#carousel-main"
+                      data-slide-to="0"
+                    />
+                  </div>
+                  <div class="item">
+                    <img
+                      src="Images/double_chocolate_can_cutout.png"
+                      class="img-responsive"
+                      data-target="#carousel-main"
+                      data-slide-to="1"
+                    />
+                  </div>
+                  <div class="item">
+                    <img
+                      src="Images/peanut_butter_can_cutout.png"
+                      class="img-responsive"
+                      data-target="#carousel-main"
+                      data-slide-to="2"
+                    />
+                  </div>
+                </div>
+                <a
+                  class="left carousel-control"
+                  href="#carouselExampleIndicators"
+                  role="button"
+                  data-slide="prev"
+                >
+                  <span
+                    class="glyphicon glyphicon-chevron-up"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a
+                  class="right carousel-control"
+                  href="#carouselExampleIndicators"
+                  role="button"
+                  data-slide="next"
+                >
+                  <span
+                    class="glyphicon glyphicon-chevron-down"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- section 4 -->
+      <!-- Carousel wrapper -->
+      <div
+        id="carouselMultiItemExample"
+        class="carousel slide carousel-dark text-center"
+        data-mdb-ride="carousel"
+      >
+        <div class="carousel-inner py-4">
+          <!-- Single item -->
+          <div class="carousel-item active">
+            <div class="container1">
+              <div class="row text-center">
+                <div class="col-lg-3 cell">
+                  <div class="top d-flex justify-content-between">
+                    <ul class="list-unstyled d-flex justify-content-center">
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                    </ul>
+                    <h6 class="font-weight-bold my-3">Linden</h6>
+                  </div>
+
+                  <h3 class="font-weight-bold">"Delicious!"</h3>
+                  <p class="mb-2 p-4">
+                    "This stuff is DELICIOUS! This isn’t one of those products
+                    that sacrificed flavor and taste for health. You can have
+                    your cake and eat it too :) I like having it raw as dough if
+                    I’m in the mood for a refreshing and sweet, but if I want
+                    something warm and comforting I pop it in the oven."
+                  </p>
+                </div>
+                <div class="col-lg-3 cell">
+                  <div class="top d-flex justify-content-between">
+                    <ul class="list-unstyled d-flex justify-content-center">
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                    </ul>
+                    <h6 class="font-weight-bold my-3">Kenzie</h6>
+                  </div>
+
+                  <h3 class="font-weight-bold">"Freaking good!!"</h3>
+                  <p class="mb-2 p-4">
+                    "It’s seriously the best cookie I’ve ever had in terms of
+                    taste and texture. I ate two cookies and felt great after!
+                    I’ve avoided processed sugar for decades and it’s soo
+                    awesome to have this on hand for when friends come over!
+                    Gotta share the love”.
+                  </p>
+                </div>
+                <div class="col-lg-3 cell">
+                  <div class="top d-flex justify-content-between">
+                    <ul class="list-unstyled d-flex justify-content-center">
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                    </ul>
+                    <h6 class="font-weight-bold my-3">Julia</h6>
+                  </div>
+
+                  <h3 class="font-weight-bold">"I'm hooked!"</h3>
+                  <p class="mb-2 p-4">
+                    “Holyyyyy sh*t! Cannot get over how good this dough is.
+                    Clean eating has never tasted so good. I'm officially
+                    hooked!”
+                  </p>
+                </div>
+                <div class="col-lg-3 cell">
+                  <div class="top d-flex justify-content-between">
+                    <ul class="list-unstyled d-flex justify-content-center">
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                    </ul>
+                    <h6 class="font-weight-bold my-3">Brooke</h6>
+                  </div>
+
+                  <h3 class="font-weight-bold">"THE greatest!"</h3>
+                  <p class="mb-2 p-4">
+                    My sink has been filled with spoons for a week straight
+                    because every time I walk passed the fridge, I eat a
+                    mouthful of Doughy. Hands down, THE greatest guilt free
+                    cookie/dough I’ve found on the market 🤤”
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="container1">
+              <div class="row text-center">
+                <div class="col-lg-3 cell">
+                  <div class="top d-flex justify-content-between">
+                    <ul class="list-unstyled d-flex justify-content-center">
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                    </ul>
+                    <h6 class="font-weight-bold my-3">Linden</h6>
+                  </div>
+
+                  <h3 class="font-weight-bold">Delicious!</h3>
+                  <p class="mb-2">
+                    <i class="fas fa-quote-left pe-2"></i>This stuff is
+                    DELICIOUS! This isn’t one of those products that sacrificed
+                    flavor and taste for health. You can have your cake and eat
+                    it too :) I like having it raw as dough if I’m in the mood
+                    for a refreshing and sweet, but if I want something warm and
+                    comforting I pop it in the oven.<i
+                      class="fas fa-quote-right pe-2"
+                    ></i>
+                  </p>
+                </div>
+                <div class="col-lg-3 cell">
+                  <div class="top d-flex justify-content-between">
+                    <ul class="list-unstyled d-flex justify-content-center">
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                    </ul>
+                    <h6 class="font-weight-bold my-3">Linden</h6>
+                  </div>
+
+                  <h3 class="font-weight-bold">Delicious!</h3>
+                  <p class="mb-2">
+                    <i class="fas fa-quote-left pe-2"></i>This stuff is
+                    DELICIOUS! This isn’t one of those products that sacrificed
+                    flavor and taste for health. You can have your cake and eat
+                    it too :) I like having it raw as dough if I’m in the mood
+                    for a refreshing and sweet, but if I want something warm and
+                    comforting I pop it in the oven.<i
+                      class="fas fa-quote-right pe-2"
+                    ></i>
+                  </p>
+                </div>
+                <div class="col-lg-3 cell">
+                  <div class="top d-flex justify-content-between">
+                    <ul class="list-unstyled d-flex justify-content-center">
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                    </ul>
+                    <h6 class="font-weight-bold my-3">Linden</h6>
+                  </div>
+
+                  <h3 class="font-weight-bold">Delicious!</h3>
+                  <p class="mb-2">
+                    <i class="fas fa-quote-left pe-2"></i>This stuff is
+                    DELICIOUS! This isn’t one of those products that sacrificed
+                    flavor and taste for health. You can have your cake and eat
+                    it too :) I like having it raw as dough if I’m in the mood
+                    for a refreshing and sweet, but if I want something warm and
+                    comforting I pop it in the oven.<i
+                      class="fas fa-quote-right pe-2"
+                    ></i>
+                  </p>
+                </div>
+                <div class="col-lg-3 cell">
+                  <div class="top d-flex justify-content-between">
+                    <ul class="list-unstyled d-flex justify-content-center">
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star fa-md text-warning"></i>
+                      </li>
+                    </ul>
+                    <h6 class="font-weight-bold my-3">Linden</h6>
+                  </div>
+
+                  <h3 class="font-weight-bold">Delicious!</h3>
+                  <p class="mb-2">
+                    <i class="fas fa-quote-left pe-2"></i>This stuff is
+                    DELICIOUS! This isn’t one of those products that sacrificed
+                    flavor and taste for health. You can have your cake and eat
+                    it too :) I like having it raw as dough if I’m in the mood
+                    for a refreshing and sweet, but if I want something warm and
+                    comforting I pop it in the oven.<i
+                      class="fas fa-quote-right pe-2"
+                    ></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section 6 -->
+      <section class="section6">
+        <div class="nostalgic">
+          <h2>
+            For those nostalgic, <br />
+            <em>irresistible</em> cravings.
+          </h2>
+          <button type="button" class="btn btn-outline-dark btn-lg m-5">
+            build a bundle
+          </button>
+        </div>
+      </section>
+      <!-- section 7 -->
+      <section class="section7">
+        <div class="row">
+          <div class="col-lg-4 p-1">
+            <img
+              src="/Images/chocolate_chip_cover.jpg"
+              alt="cookies"
+              width="100%"
+              class="choco"
+            />
+          </div>
+          <div class="col-lg-4 p-1">
+            <img
+              src="/Images/double_chocolate_cover.jpg"
+              alt="cookies"
+              width="100%"
+              class="double"
+            />
+          </div>
+          <div class="col-lg-4 p-1">
+            <img
+              src="/Images/peanut_butter_cover.jpg"
+              alt="cookies"
+              width="100%"
+              class="peanut"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- section 8 -->
+      <section class="section8 py-3">
+        <h2 class="p-5">
+          Eat Good. Feel Good. <br />
+          <em>Dough Good.</em>
+        </h2>
+        <p class="p-4">
+          Millions of working Americans don’t know where their next meal is
+          coming from. That's <br />
+          why every pint of Doughy you purchase feeds someone in need. We
+          partner with <br />
+          impactful charities and organizations to bring necessities to the
+          food-insecure, because <br />
+          no one deserves to go to bed hungry.
+        </p>
+        <button type="button" class="btn btn-outline-dark btn-lg">
+          shop + support
+        </button>
+      </section>
+
+      <!-- charts -->
+
+      <section class="charts">
+        <a href="/chart.html" class="chart">
+          <h1 class="text-center text-decoration-none">Charts</h1>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="chartbox">
+                <canvas id="myChart"></canvas>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="chartbox">
+                <canvas id="myChart1"></canvas>
+              </div>
+            </div>
+          </div>
+        </a>
+      </section>
+      <!-- section 9 -->
+      <section class="section9 py-5">
+        <div class="row">
+          <div class="col-lg-2 insta my-4 py-5">
+            <h3 class="py-4">
+              <em>Spoon us.</em>
+              <br />
+              Then follow <br />
+              us on insta.
+            </h3>
+
+            <h6 class="text-center py-1">@eatdoughy</h6>
+          </div>
+          <div class="col-lg-3 m-4">
+            <div class="topp d-flex justify-content-between m-2">
+              <img
+                src="/Images/doughy-social-icon_64x.jpg"
+                alt="icon"
+                width="50px"
+              />
+              <div class="eat p-2">
+                <p class="eatd">eatdoughy</p>
+                <small>Los Angeles, California</small>
+              </div>
+              <svg
+                class="dots ms-auto my-3"
+                width="5"
+                height="15"
+                viewBox="0 0 5 15"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.75 2.5C2.16421 2.5 2.5 2.16421 2.5 1.75C2.5 1.33579 2.16421 1 1.75 1C1.33579 1 1 1.33579 1 1.75C1 2.16421 1.33579 2.5 1.75 2.5Z"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M1.75 8C2.16421 8 2.5 7.66421 2.5 7.25C2.5 6.83579 2.16421 6.5 1.75 6.5C1.33579 6.5 1 6.83579 1 7.25C1 7.66421 1.33579 8 1.75 8Z"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M1.75 13.5C2.16421 13.5 2.5 13.1642 2.5 12.75C2.5 12.3358 2.16421 12 1.75 12C1.33579 12 1 12.3358 1 12.75C1 13.1642 1.33579 13.5 1.75 13.5Z"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </div>
+            <div class="middle">
+              <img src="/Images/instagram_post_3.png" alt="cookies" />
+            </div>
+            <span class="buttons">
+              <svg
+                fill="none"
+                height="19"
+                viewBox="0 0 21 19"
+                width="21"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M20.3451 2.68122C19.4655 0.87105 16.932 -0.609994 13.9851 0.252303C12.5768 0.660241 11.3482 1.53507 10.4999 2.73387C9.65152 1.53507 8.42287 0.660241 7.01465 0.252303C4.0611 -0.596829 1.53416 0.87105 0.654657 2.68122C-0.579275 5.21545 -0.0673239 8.06563 2.17738 11.1528C3.93639 13.5685 6.4502 16.0172 10.0995 18.8608C10.3368 19.0464 10.6695 19.0464 10.9068 18.8608C14.5495 16.0238 17.0699 13.5949 18.8289 11.1528C21.067 8.06563 21.579 5.21545 20.3451 2.68122Z"
+                  fill="#1F1209"
+                ></path>
+              </svg>
+              <svg
+                fill="none"
+                height="20"
+                viewBox="0 0 23 20"
+                width="23"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M0.00126567 9.28571C0.00126567 4.15625 5.15715 0 11.5203 0C17.8834 0 23 4.15759 23 9.28571C23 14.4138 17.8834 18.5714 11.5203 18.5714C10.0487 18.5714 8.59972 18.3393 7.33969 17.9353C5.98967 18.8504 3.84763 20 1.08007 20C0.647163 20 0.261866 19.7411 0.0874423 19.3504C-0.081311 18.9598 -0.00255939 18.5022 0.295571 18.1897C0.318072 18.1732 1.71265 16.683 2.38226 14.9196C0.897233 13.3594 0.00126567 11.4121 0.00126567 9.28571ZM7.99761 15.8875C9.13433 16.2444 10.321 16.4286 11.5248 16.4286C16.6864 16.4286 20.8836 13.2254 20.8836 9.28571C20.8836 5.34598 16.6873 2.14286 11.5234 2.14286C6.35957 2.14286 2.16324 5.34598 2.16324 9.28571C2.16324 11.1696 3.14201 12.5938 3.95338 13.4547L4.8813 14.431L4.40339 15.681C4.15543 16.3283 3.84065 16.9368 3.50877 17.4779C4.57169 17.1377 5.45506 16.635 6.09632 16.1833L6.97384 15.5694L7.99761 15.8875Z"
+                  fill-rule="evenodd"
+                  fill="#1F1209"
+                ></path>
+              </svg>
+              <svg
+                fill="none"
+                height="23"
+                viewBox="0 0 26 23"
+                width="26"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M24.0488 0.0136606C24.4483 -0.0517754 24.8478 0.12136 25.0746 0.458208C25.2999 0.796075 25.3113 1.2363 25.104 1.5886L12.6405 22.6467L10.7615 22.1079L7.67859 11.8276L0 5.81718L0.54553 3.91468L24.0488 0.0136606ZM9.35085 11.6629L12.0008 20.4994L23.029 1.86551L2.08685 5.3417L8.41787 10.2974L18.2089 4.18801L19.066 5.60076L9.35085 11.6629Z"
+                  fill-rule="evenodd"
+                  fill="#1F1209"
+                ></path>
+              </svg>
+            </span>
+            <svg
+              class="save"
+              fill="none"
+              height="21"
+              viewBox="0 0 15 21"
+              width="15"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M1.5 0H13.5C14.3284 0 15 0.671573 15 1.5V21L7.5 17.25L0 21V1.5C0 0.671573 0.671573 0 1.5 0ZM13.5 18.5625V1.5H1.5V18.5625L6.825 15.87L7.5 15.5325L8.175 15.87L13.5 18.5625Z"
+                fill-rule="evenodd"
+                fill="#1F1209"
+              ></path>
+            </svg>
+
+            <div class="bottom">
+              <p class="eatd">eatdoughy</p>
+              <small>June 9th, 2022</small>
+            </div>
+          </div>
+          <div class="col-lg-3 m-4">
+            <div class="topp d-flex justify-content-between m-2">
+              <img
+                src="/Images/doughy-social-icon_64x.jpg"
+                alt="icon"
+                width="50px"
+              />
+              <div class="eat p-2">
+                <p class="eatd">eatdoughy</p>
+                <small>Los Angeles, California</small>
+              </div>
+              <svg
+                class="dots ms-auto my-3"
+                width="5"
+                height="15"
+                viewBox="0 0 5 15"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.75 2.5C2.16421 2.5 2.5 2.16421 2.5 1.75C2.5 1.33579 2.16421 1 1.75 1C1.33579 1 1 1.33579 1 1.75C1 2.16421 1.33579 2.5 1.75 2.5Z"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M1.75 8C2.16421 8 2.5 7.66421 2.5 7.25C2.5 6.83579 2.16421 6.5 1.75 6.5C1.33579 6.5 1 6.83579 1 7.25C1 7.66421 1.33579 8 1.75 8Z"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M1.75 13.5C2.16421 13.5 2.5 13.1642 2.5 12.75C2.5 12.3358 2.16421 12 1.75 12C1.33579 12 1 12.3358 1 12.75C1 13.1642 1.33579 13.5 1.75 13.5Z"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </div>
+            <div class="middle">
+              <img src="/Images/instagram_post_2.png" alt="cookies" />
+            </div>
+            <span class="buttons">
+              <svg
+                fill="none"
+                height="19"
+                viewBox="0 0 21 19"
+                width="21"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M20.3451 2.68122C19.4655 0.87105 16.932 -0.609994 13.9851 0.252303C12.5768 0.660241 11.3482 1.53507 10.4999 2.73387C9.65152 1.53507 8.42287 0.660241 7.01465 0.252303C4.0611 -0.596829 1.53416 0.87105 0.654657 2.68122C-0.579275 5.21545 -0.0673239 8.06563 2.17738 11.1528C3.93639 13.5685 6.4502 16.0172 10.0995 18.8608C10.3368 19.0464 10.6695 19.0464 10.9068 18.8608C14.5495 16.0238 17.0699 13.5949 18.8289 11.1528C21.067 8.06563 21.579 5.21545 20.3451 2.68122Z"
+                  fill="#1F1209"
+                ></path>
+              </svg>
+              <svg
+                fill="none"
+                height="20"
+                viewBox="0 0 23 20"
+                width="23"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M0.00126567 9.28571C0.00126567 4.15625 5.15715 0 11.5203 0C17.8834 0 23 4.15759 23 9.28571C23 14.4138 17.8834 18.5714 11.5203 18.5714C10.0487 18.5714 8.59972 18.3393 7.33969 17.9353C5.98967 18.8504 3.84763 20 1.08007 20C0.647163 20 0.261866 19.7411 0.0874423 19.3504C-0.081311 18.9598 -0.00255939 18.5022 0.295571 18.1897C0.318072 18.1732 1.71265 16.683 2.38226 14.9196C0.897233 13.3594 0.00126567 11.4121 0.00126567 9.28571ZM7.99761 15.8875C9.13433 16.2444 10.321 16.4286 11.5248 16.4286C16.6864 16.4286 20.8836 13.2254 20.8836 9.28571C20.8836 5.34598 16.6873 2.14286 11.5234 2.14286C6.35957 2.14286 2.16324 5.34598 2.16324 9.28571C2.16324 11.1696 3.14201 12.5938 3.95338 13.4547L4.8813 14.431L4.40339 15.681C4.15543 16.3283 3.84065 16.9368 3.50877 17.4779C4.57169 17.1377 5.45506 16.635 6.09632 16.1833L6.97384 15.5694L7.99761 15.8875Z"
+                  fill-rule="evenodd"
+                  fill="#1F1209"
+                ></path>
+              </svg>
+              <svg
+                fill="none"
+                height="23"
+                viewBox="0 0 26 23"
+                width="26"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M24.0488 0.0136606C24.4483 -0.0517754 24.8478 0.12136 25.0746 0.458208C25.2999 0.796075 25.3113 1.2363 25.104 1.5886L12.6405 22.6467L10.7615 22.1079L7.67859 11.8276L0 5.81718L0.54553 3.91468L24.0488 0.0136606ZM9.35085 11.6629L12.0008 20.4994L23.029 1.86551L2.08685 5.3417L8.41787 10.2974L18.2089 4.18801L19.066 5.60076L9.35085 11.6629Z"
+                  fill-rule="evenodd"
+                  fill="#1F1209"
+                ></path>
+              </svg>
+            </span>
+            <svg
+              class="save"
+              fill="none"
+              height="21"
+              viewBox="0 0 15 21"
+              width="15"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M1.5 0H13.5C14.3284 0 15 0.671573 15 1.5V21L7.5 17.25L0 21V1.5C0 0.671573 0.671573 0 1.5 0ZM13.5 18.5625V1.5H1.5V18.5625L6.825 15.87L7.5 15.5325L8.175 15.87L13.5 18.5625Z"
+                fill-rule="evenodd"
+                fill="#1F1209"
+              ></path>
+            </svg>
+
+            <div class="bottom">
+              <p class="eatd">eatdoughy</p>
+              <small>June 12th, 2022</small>
+            </div>
+          </div>
+          <div class="col-lg-3 my-4">
+            <div class="topp d-flex justify-content-between m-2">
+              <img
+                src="/Images/doughy-social-icon_64x.jpg"
+                alt="icon"
+                width="50px"
+              />
+              <div class="eat p-2">
+                <p class="eatd">eatdoughy</p>
+                <small>Los Angeles, California</small>
+              </div>
+              <svg
+                class="dots ms-auto my-3"
+                width="5"
+                height="15"
+                viewBox="0 0 5 15"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.75 2.5C2.16421 2.5 2.5 2.16421 2.5 1.75C2.5 1.33579 2.16421 1 1.75 1C1.33579 1 1 1.33579 1 1.75C1 2.16421 1.33579 2.5 1.75 2.5Z"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M1.75 8C2.16421 8 2.5 7.66421 2.5 7.25C2.5 6.83579 2.16421 6.5 1.75 6.5C1.33579 6.5 1 6.83579 1 7.25C1 7.66421 1.33579 8 1.75 8Z"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M1.75 13.5C2.16421 13.5 2.5 13.1642 2.5 12.75C2.5 12.3358 2.16421 12 1.75 12C1.33579 12 1 12.3358 1 12.75C1 13.1642 1.33579 13.5 1.75 13.5Z"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </div>
+            <div class="middle">
+              <img src="/Images/instagram_post_1.png" alt="cookies" />
+            </div>
+            <span class="buttons">
+              <svg
+                fill="none"
+                height="19"
+                viewBox="0 0 21 19"
+                width="21"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M20.3451 2.68122C19.4655 0.87105 16.932 -0.609994 13.9851 0.252303C12.5768 0.660241 11.3482 1.53507 10.4999 2.73387C9.65152 1.53507 8.42287 0.660241 7.01465 0.252303C4.0611 -0.596829 1.53416 0.87105 0.654657 2.68122C-0.579275 5.21545 -0.0673239 8.06563 2.17738 11.1528C3.93639 13.5685 6.4502 16.0172 10.0995 18.8608C10.3368 19.0464 10.6695 19.0464 10.9068 18.8608C14.5495 16.0238 17.0699 13.5949 18.8289 11.1528C21.067 8.06563 21.579 5.21545 20.3451 2.68122Z"
+                  fill="#1F1209"
+                ></path>
+              </svg>
+              <svg
+                fill="none"
+                height="20"
+                viewBox="0 0 23 20"
+                width="23"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M0.00126567 9.28571C0.00126567 4.15625 5.15715 0 11.5203 0C17.8834 0 23 4.15759 23 9.28571C23 14.4138 17.8834 18.5714 11.5203 18.5714C10.0487 18.5714 8.59972 18.3393 7.33969 17.9353C5.98967 18.8504 3.84763 20 1.08007 20C0.647163 20 0.261866 19.7411 0.0874423 19.3504C-0.081311 18.9598 -0.00255939 18.5022 0.295571 18.1897C0.318072 18.1732 1.71265 16.683 2.38226 14.9196C0.897233 13.3594 0.00126567 11.4121 0.00126567 9.28571ZM7.99761 15.8875C9.13433 16.2444 10.321 16.4286 11.5248 16.4286C16.6864 16.4286 20.8836 13.2254 20.8836 9.28571C20.8836 5.34598 16.6873 2.14286 11.5234 2.14286C6.35957 2.14286 2.16324 5.34598 2.16324 9.28571C2.16324 11.1696 3.14201 12.5938 3.95338 13.4547L4.8813 14.431L4.40339 15.681C4.15543 16.3283 3.84065 16.9368 3.50877 17.4779C4.57169 17.1377 5.45506 16.635 6.09632 16.1833L6.97384 15.5694L7.99761 15.8875Z"
+                  fill-rule="evenodd"
+                  fill="#1F1209"
+                ></path>
+              </svg>
+              <svg
+                fill="none"
+                height="23"
+                viewBox="0 0 26 23"
+                width="26"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M24.0488 0.0136606C24.4483 -0.0517754 24.8478 0.12136 25.0746 0.458208C25.2999 0.796075 25.3113 1.2363 25.104 1.5886L12.6405 22.6467L10.7615 22.1079L7.67859 11.8276L0 5.81718L0.54553 3.91468L24.0488 0.0136606ZM9.35085 11.6629L12.0008 20.4994L23.029 1.86551L2.08685 5.3417L8.41787 10.2974L18.2089 4.18801L19.066 5.60076L9.35085 11.6629Z"
+                  fill-rule="evenodd"
+                  fill="#1F1209"
+                ></path>
+              </svg>
+            </span>
+            <svg
+              class="save"
+              fill="none"
+              height="21"
+              viewBox="0 0 15 21"
+              width="15"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M1.5 0H13.5C14.3284 0 15 0.671573 15 1.5V21L7.5 17.25L0 21V1.5C0 0.671573 0.671573 0 1.5 0ZM13.5 18.5625V1.5H1.5V18.5625L6.825 15.87L7.5 15.5325L8.175 15.87L13.5 18.5625Z"
+                fill-rule="evenodd"
+                fill="#1F1209"
+              ></path>
+            </svg>
+
+            <div class="bottom">
+              <p class="eatd">eatdoughy</p>
+              <small>June 18th, 2022</small>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section 10 -->
+      <section class="section10 d-flex p-5 my-4 justify-content-center">
+        <div class="signup px-5">
+          <h3 class="py-2">Sign up to our newsletter</h3>
+          <p>Plus get the inside scoop about exclusive offers & news!</p>
+        </div>
+
+        <div class="col-lg-4 sign-up m-1">
+          <div class="search d-flex">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Email address"
+            />
+            <a href="#"
+              ><img src="/Images/send.png" alt="send" height="24px"
+            /></a>
+          </div>
+        </div>
+      </section>
+      <!-- footer -->
+      <footer class="footer">
+        <div class="row">
+          <div class="col-lg-4 text-center p-5">
+            <h1>doughy</h1>
+            <p class="text-center">© 2021 by Doughy, LLC</p>
+          </div>
+          <div class="col-lg-8 d-flex">
+            <div class="col-lg-3 mt-3">
+              <h3 class="mb-4 font-weight-bold">Shop</h3>
+              <p>
+                <a href="#" style="text-decoration: none">Cookie dough</a>
+              </p>
+              <p>
+                <a href="#" style="text-decoration: none">Shop now</a>
+              </p>
+            </div>
+
+            <div class="col-lg-3 mt-3">
+              <h3 class="mb-4 font-weight-bold">Learn</h3>
+              <p>
+                <a href="#" style="text-decoration: none">our story</a>
+              </p>
+              <p>
+                <a href="#" style="text-decoration: none">find a store</a>
+              </p>
+              <p>
+                <a href="#" style="text-decoration: none">contact</a>
+              </p>
+              <p>
+                <a href="#" style="text-decoration: none">recipes</a>
+              </p>
+            </div>
+            <div class="col-lg-3 mt-3">
+              <h3 class="mb-4 font-weight-bold">Connect</h3>
+              <p>
+                <a href="#" style="text-decoration: none">
+                  <svg
+                    class="me-2"
+                    fill="none"
+                    height="26"
+                    viewBox="0 0 26 26"
+                    width="26"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M25.9163 7.67402C25.9017 6.58234 25.697 5.50151 25.3113 4.47988C24.635 2.73744 23.2551 1.35981 21.5098 0.684666C20.4996 0.306092 19.4324 0.10139 18.3536 0.0792771C16.9647 0.0172968 16.5243 0 12.9986 0C9.47279 0 9.02088 0 7.64205 0.0792771C6.56376 0.101553 5.49706 0.306252 4.48734 0.684666C2.7417 1.35935 1.36162 2.73714 0.685806 4.47988C0.305842 5.48761 0.101244 6.55277 0.080853 7.62934C0.0187694 9.01741 0 9.45704 0 12.9769C0 16.4968 0 16.9466 0.080853 18.3245C0.10251 19.4027 0.306086 20.4665 0.685806 21.4769C1.36274 23.2191 2.74319 24.5962 4.48878 25.2706C5.49574 25.6644 6.56262 25.8838 7.64349 25.9193C9.03387 25.9813 9.47423 26 13 26C16.5258 26 16.9777 26 18.3565 25.9193C19.4352 25.8981 20.5025 25.6938 21.5127 25.3153C23.2575 24.6394 24.6372 23.2621 25.3142 21.5201C25.6939 20.5111 25.8975 19.4474 25.9191 18.3678C25.9812 16.9811 26 16.5415 26 13.0202V12.9721C25.9971 9.49617 25.9967 9.04713 25.9163 7.67402ZM12.9897 19.6333C9.30224 19.6333 6.31501 16.651 6.31501 12.9697C6.31501 9.28835 9.30224 6.30609 12.9897 6.30609C16.676 6.30609 19.6644 9.28949 19.6644 12.9697C19.6644 16.6499 16.676 19.6333 12.9897 19.6333ZM18.8292 7.15879C19.1212 7.45027 19.5173 7.61386 19.9302 7.61347C20.7892 7.61347 21.4851 6.91872 21.4851 6.05964C21.4851 5.50477 21.1886 4.99205 20.7073 4.71461C20.226 4.43717 19.6329 4.43717 19.1516 4.71461C18.6703 4.99205 18.3737 5.50477 18.3737 6.05964C18.3734 6.47186 18.5372 6.86731 18.8292 7.15879Z"
+                      fill-rule="evenodd"
+                      fill="#1F1209"
+                    ></path>
+                    <path
+                      d="M12.9997 17.7272C15.6105 17.7272 17.727 15.6108 17.727 13C17.727 10.3892 15.6105 8.27271 12.9997 8.27271C10.3889 8.27271 8.27243 10.3892 8.27243 13C8.27243 15.6108 10.3889 17.7272 12.9997 17.7272Z"
+                      fill="#1F1209"
+                    ></path>
+                  </svg>
+                  <span>Instagram</span></a
+                >
+              </p>
+              <p>
+                <a href="#" style="text-decoration: none"
+                  ><svg
+                    class="me-2"
+                    fill="none"
+                    height="20"
+                    viewBox="0 0 25 20"
+                    width="25"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M24.5746 2.36987C23.6709 2.77031 22.7001 3.04089 21.6795 3.16319C22.7325 2.53307 23.5204 1.54133 23.896 0.373035C22.9066 0.960715 21.8238 1.37437 20.6946 1.59603C19.1333 -0.0710284 16.6465 -0.48073 14.6329 0.597345C12.6193 1.67542 11.5816 3.97213 12.1033 6.19578C8.04898 5.99221 4.27164 4.07719 1.71111 0.927175C1.27819 1.67395 1.02927 2.53979 1.02927 3.4619C1.02828 5.14782 1.86976 6.72274 3.27178 7.65904C2.47118 7.63356 1.68824 7.41724 0.988136 7.02806V7.093C0.987966 9.49344 2.67974 11.5614 5.03267 12.0369C4.28998 12.2379 3.51133 12.2675 2.75552 12.1235C3.41564 14.1773 5.30872 15.5841 7.46567 15.6236C5.6797 17.0256 3.47405 17.7861 1.20351 17.7828C0.801306 17.7829 0.399446 17.7594 0 17.7124C2.30472 19.1943 4.98758 19.9807 7.72758 19.9777C17.0029 19.9777 22.0734 12.2955 22.0734 5.63298C22.0734 5.41652 22.068 5.1979 22.0583 4.98144C23.0446 4.26818 23.8959 3.38495 24.5724 2.37311L24.5746 2.36987Z"
+                      fill="#1F1209"
+                    ></path>
+                  </svg>
+                  <span>Twitter</span></a
+                >
+              </p>
+              <p>
+                <a href="#" style="text-decoration: none"
+                  ><svg
+                    class="me-2"
+                    fill="none"
+                    height="25"
+                    viewBox="0 0 25 25"
+                    width="25"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.52138 0C2.01673 0 0 2.01673 0 4.52136V20.2406C0 22.7452 2.01673 24.7619 4.52138 24.7619H13.041V15.0816H10.4812V11.5963H13.041V8.61868C13.041 6.27931 14.5534 4.13136 18.0375 4.13136C19.4481 4.13136 20.4912 4.26679 20.4912 4.26679L20.4092 7.52144C20.4092 7.52144 19.3453 7.51138 18.1845 7.51138C16.9281 7.51138 16.7266 8.09027 16.7266 9.05127V11.5964H20.509L20.3442 15.0816H16.7266V24.7619H20.2405C22.7451 24.7619 24.7619 22.7452 24.7619 20.2406V4.52139C24.7619 2.01675 22.7451 2.49892e-05 20.2405 2.49892e-05L4.52138 0Z"
+                      fill="#1F1209"
+                    ></path>
+                  </svg>
+                  <span>Facebook</span></a
+                >
+              </p>
+            </div>
+            <div class="col-lg-3 mt-3">
+              <h3 class="mb-4 font-weight-bold">Legal</h3>
+              <p>
+                <a href="#" style="text-decoration: none">terms of service</a>
+              </p>
+              <p>
+                <a href="#" style="text-decoration: none">privacy policy</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script>
+      var xValues = ["Italy", "France", "Spain", "USA", "Argentina"];
+      var yValues = [55, 49, 44, 24, 15];
+      var barColors = ["#88BA97", "#EEB055", "#E08135", "#CA9F5A", "#C8A28F"];
+
+      new Chart("myChart", {
+        type: "doughnut",
+        data: {
+          labels: xValues,
+          datasets: [
+            {
+              backgroundColor: barColors,
+              data: yValues,
+            },
+          ],
+        },
+        options: {
+          title: {
+            display: true,
+            text: "Cookie Dough Exports",
+          },
+        },
+      });
+    </script>
+    <script>
+      var xValues1 = ["2021", "2020", "2019", "2018", "2017"];
+      var yValues1 = [55, 49, 44, 30, 22];
+      var barColors1 = ["#88BA97", "#EEB055", "#E08135", "#CA9F5A", "#C8A28F"];
+
+      new Chart("myChart1", {
+        type: "bar",
+        data: {
+          labels: xValues1,
+          datasets: [
+            {
+              backgroundColor: barColors1,
+              data: yValues1,
+            },
+          ],
+        },
+        options: {
+          legend: { display: false },
+          title: {
+            display: true,
+            text: "Cookie Dough Production",
+          },
+        },
+      });
+    </script>
+
+    <script>
+      $(".carousel .vertical .item").each(function () {
+        var next = $(this).next();
+        if (!next.length) {
+          next = $(this).siblings(":first");
+        }
+        next.children(":first-child").clone().appendTo($(this));
+
+        for (var i = 1; i < 2; i++) {
+          next = next.next();
+          if (!next.length) {
+            next = $(this).siblings(":first");
+          }
+
+          next.children(":first-child").clone().appendTo($(this));
+        }
+      });
+    </script>
+  </body>
+</html>
